@@ -25,4 +25,4 @@ I needed to add user input from a custom BLE peripheral, a simple remote pushbut
 
 In my case I knew exactly the device, service, and GATT characteristics I needed to interact with, and I wanted a minimum overhead task that would do its thing in a low priority thread.
 
-I accomplished my needs using only three unmodified source files from the BlueZ distribution and excerpts from an additional three source files.  See the Makefile for exactly which three unmodified files are used, and see source file bleClient.c for the excerpts from other BlutZ source files.  Since the BlueZ source is inextricably dependent on D-Bus and the Gnome GLib main loop, these are included.
+I accomplished my needs using only three unmodified source files from the BlueZ distribution and excerpts from an additional three source files.  See the Makefile for exactly which three unmodified files are used, and see source file bleClient.c for the excerpts from other BlueZ source files.  Since the BlueZ source is inextricably dependent on D-Bus and the Gnome GLib main loop, these are included.
